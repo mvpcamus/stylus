@@ -1,5 +1,6 @@
-div.dv-player-fullscreen span {
-    font-family: "NanumSquareRoundOTF ExtraBold" !important;
-    text-shadow: 0px 0px 6px black;
-    opacity: 0.95;
+div.dv-player-fullscreen div[class*="caption"] span {
+  font-family: "NanumSquare Neo OTF ExtraBold" !important;
+  text-shadow: 1px 1px 0px #505050, -1px -1px 0px #505050, 1px -1px 0px #505050, -1px 1px 0px #505050, 0px 0px 8px #000 !important;
+  opacity: 0.95 !important;
+  background: transparent !important;
 }

@@ -1,9 +1,10 @@
 .mainView {
-    font-family: "NanumSquareRoundOTF ExtraBold" !important;
+  font-family: "NanumSquare Neo OTF ExtraBold" !important;
 }
 
-div.watch-video span {
-    font-family: "NanumSquareRoundOTF ExtraBold" !important;
-    text-shadow: 0px 0px 6px black !important;
-    opacity: 0.95;
+div.watch-video div[style*="direction"] span {
+  font-family: "NanumSquare Neo OTF ExtraBold" !important;
+  font-size: 270% !important;
+  text-shadow: 1px 1px 0px #505050, -1px -1px 0px #505050, 1px -1px 0px #505050, -1px 1px 0px #505050, 0px 0px 8px #000 !important;
+  opacity: 0.95;
 }
