@@ -4,7 +4,7 @@
 
 div.watch-video div[style*="direction"] span {
   font-family: "NanumSquare Neo OTF ExtraBold" !important;
-  font-size: 270% !important;
+  font-size: clamp(20px, 6vmin, 85px) !important;
   text-shadow: 1px 1px 0px #505050, -1px -1px 0px #505050, 1px -1px 0px #505050, -1px 1px 0px #505050, 0px 0px 8px #000 !important;
   opacity: 0.95;
 }
