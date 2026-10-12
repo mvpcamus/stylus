@@ -55,4 +55,13 @@
     childList: true,
     subtree: true
   });
+
+  // Re-apply video sizing after fullscreen/layout changes
+  document.addEventListener("fullscreenchange", () => {
+    requestAnimationFrame(fixVideo);
+  });
+
+  window.addEventListener("resize", () => {
+    requestAnimationFrame(fixVideo);
+  });
 })();
